@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.modal{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding: 0.5rem 1.5rem;
+    background-color: rgba(127, 210, 243, 0.753);
+    border-radius: 0.5rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.modal_section{
+        background-color: #000000d0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal_content{
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    position: relative;
+}
+.modal_buttons{
+    text-align: center;
+    margin-top: 0.5rem;
+    
+}
+.close_button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.close{
+    display: none;
+}
